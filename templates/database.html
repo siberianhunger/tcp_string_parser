@@ -1,0 +1,36 @@
+{% block body %}
+    <div class="div" style="margin: 0 auto; padding-top: 10px">
+    {% for athlete_info in athletes %}
+        {% if athlete_info["group_number"] == "00" %}
+            <div>спортсмен, нагрудный номер {{ athlete_info["athlete_number"] }}
+            прошёл отсечку {{ athlete_info["channel_ID"] }} в {{ athlete_info["time"] }}</div>
+        {% endif %}
+    {% endfor %}
+    </div>
+    <table class="table" style="margin: 0 auto; padding-top: 30px">
+        <thead>
+        <tr>
+            <th>Athlete number</th>
+            <th>Channel ID</th>
+            <th>Time</th>
+            <th>Group number</th>
+        </tr>
+        </thead>
+        <tbody>
+
+
+        {% for athlete_info in athletes %}
+            {% if athlete_info["group_number"] == "00" %}
+                <tr>
+                    <td>{{ athlete_info["athlete_number"] }}</td>
+                    <td>{{ athlete_info["channel_ID"] }}</td>
+                    <td>{{ athlete_info["time"] }}</td>
+                    <td>{{ athlete_info["group_number"] }}</td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+
+        </tbody>
+    </table>
+
+{% endblock %}
