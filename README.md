@@ -1,5 +1,5 @@
 # String splitter
-This is my implementation string splitter to pass a interview task in "Telecom-Engineering".
+This is my implementation of string splitter to pass an interview task in "Telecom-Engineering".
 
 The task itself stored in task.txt file.
 ## install flask and run application with:
