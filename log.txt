@@ -6,3 +6,5 @@
 {'athlete_number': '0003', 'channel_ID': 'C2', 'time': '01:15:3.9', 'group_number': '01'}
 {'athlete_number': '0002', 'channel_ID': 'C2', 'time': '01:13:2.9', 'group_number': '00'}
 {'athlete_number': '0002', 'channel_ID': 'C3', 'time': '01:13:2.9', 'group_number': '00'}
+{'athlete_number': '0002', 'channel_ID': 'C1', 'time': ['01', '13', '02.877'], 'group_number': '00'}
+{'athlete_number': '0002', 'channel_ID': 'C1', 'time': '01:13:2.9', 'group_number': '00'}
